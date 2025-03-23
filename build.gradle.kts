@@ -28,3 +28,10 @@ tasks.withType<Test> {
 tasks.compileKotlin {
     kotlinOptions.jvmTarget = "17" // Встановлення правильного JVM target
 }
+springBoot {
+    mainClass.set("com.dmarko.spring.Application")
+}
+
+tasks.bootRun {
+    mainClass.set("com.dmarko.spring.Application")
+}

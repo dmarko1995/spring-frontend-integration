@@ -1,0 +1,1 @@
+C:\spring-frontend-integration\build\classes\java\main\com\dmarko\spring\Application.class
